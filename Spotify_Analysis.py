@@ -146,26 +146,3 @@ df_stream.dropna(subset="genres", how="all", inplace=True)
 
 # for tableau
 df_stream.to_csv("MyStream.csv")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# create library dataframe
-library_list = [pd.read_json(data) for data in all_data if "Library" in data]
