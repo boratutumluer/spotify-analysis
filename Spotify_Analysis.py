@@ -50,8 +50,8 @@ AUTH_URL = 'https://accounts.spotify.com/api/token'
 # POST
 auth_response = requests.post(AUTH_URL, {
     'grant_type': 'client_credentials',
-    'client_id': "ecbb39d0cbd340b0b3a12f347936116c",
-    'client_secret': "8dc862d11c154bd0ad6f4054131c3c1c",
+    'client_id': "client_id",
+    'client_secret': "client_secret",
 })
 
 # convert the response to JSON
